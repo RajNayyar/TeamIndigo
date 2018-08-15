@@ -5,30 +5,30 @@ body {
 .Partition {
 	margin-top: 20px;
 }
-.Container{
+.Container {
 	width: 1024px;
 	height:1100px;
 	border: 1px solid black;
 	margin: 0 auto;
 }
-.SubPartitionLarge{
+.SubPartitionLarge {
 	width: 26%;
 	display: inline-block;
 	border: 1px solid black;
 }
-.SubPartitionLargeForText{
+.SubPartitionLargeForText {
 	width: 26%;
 	display: inline-block;
 }
-.SubPartitionSmall{
+.SubPartitionSmall {
 	width: 4%;
 	display: inline-block;
 }
-.SubPartition2Small{
+.SubPartition2Small {
 	width: 30.5%;
 	display: inline-block;
 }
-.test{
+.test {
 	text-align: right;
 }
 .icon {
@@ -36,18 +36,17 @@ body {
 	width: 20px;
 	display: inline-block;
 }
-.ProfileImage{
+.ProfileImage {
 	border-radius: 50%;
 	width: 180px;
 	padding-left: 35px;
 	padding-right: 35px;
 	display: inline-block;
 }
-.heading
-{
+.heading {
 	text-align: center;
 }
-.LeftHeading{
+.LeftHeading {
 	margin-left: 6%;
 }
 .RightHeading{
@@ -58,7 +57,6 @@ body {
 	width: 100%;
 	background-color:#ABB8B8;
 }
-
 .internalOne {
 	float: left;
 	border: 3px solid black;
@@ -105,7 +103,6 @@ p.b {
 .EduList {
 	color: #A9A9A9;
 }
-
 .bottom {
 	height: 50px;
 	width: 1024px;
