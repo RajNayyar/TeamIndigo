@@ -1,145 +1,113 @@
-body
-{
+body {
 	font-family: sans-serif;
 	font-style: thin;
 }
-
-
+.Partition {
+	margin-top: 20px;
+}
 .Container{
 	width: 1024px;
 	height:1100px;
 	border: 1px solid black;
 	margin: 0 auto;
 }
-
 .SubPartitionLarge{
 	width: 26%;
 	display: inline-block;
 	border: 1px solid black;
 }
-
-
 .SubPartitionLargeForText{
 	width: 26%;
 	display: inline-block;
-	
 }
-
-
-
 .SubPartitionSmall{
 	width: 4%;
 	display: inline-block;
 }
-
 .SubPartition2Small{
 	width: 30.5%;
 	display: inline-block;
 }
-
 .test{
 	text-align: right;
 }
-
 .icon {
 	margin-right: 10px;
 	width: 20px;
 	display: inline-block;
 }
-
 .ProfileImage{
-border-radius: 50%;
+	border-radius: 50%;
 	width: 180px;
 	padding-left: 35px;
 	padding-right: 35px;
 	display: inline-block;
 }
-
-.InformationText
-{
-	text-align: le
-}
-
-.EXPERIENCE
-{
-	display: inline-block;
-}
-
 .heading
 {
 	text-align: center;
 }
-#LeftHeading{
+.LeftHeading{
 	margin-left: 6%;
 }
-#RightHeading{
+.RightHeading{
 	margin-right: 4%;
 }
-
-
-.external1 {
-    height: 200px;
-    width: 100%;
-    background-color:rgb(171,184,184);
+.externalOne {
+	height: 200px;
+	width: 100%;
+	background-color:#ABB8B8;
 }
 
-.internal1 {
-    float: left;
-    border: 3px solid black;
-    outline: white solid 12px;
-    margin-top: 50px;
-    margin-left: 25%;
-    height: 100px;
-    width: 50%;
-    background-color: white;
+.internalOne {
+	float: left;
+	border: 3px solid black;
+	outline: white solid 12px;
+	margin-top: 50px;
+	margin-left: 25%;
+	height: 100px;
+	width: 50%;
+	background-color: white;
 } 
 p.a {
-    font-family: "sans-serif";
-    text-align: center;
-    text-transform:uppercase;
-    font-weight:thin;
-    font-size:larger;
+	font-family: "sans-serif";
+	text-align: center;
+	text-transform:uppercase;
+	font-weight:thin;
+	font-size:larger;
 }
 p.b {
-    font-family: "sans-serif";
-    text-align: center;
-    font-weight:thin;
-    font-style: italic;
-    font-size: larger;
+	font-family: "sans-serif";
+	text-align: center;
+	font-weight:thin;
+	font-style: italic;
+	font-size: larger;
 }
-
-.boxText
-{
+.boxText {
 	text-align: center;
 	font-size: 9px;
 }
-.exp1
-{
+.expOne {
 	float: left;
 	width: 80%;
 	margin-left: 6%;
 }
-.exp2
-{
+.expTwo {
 	float: left;
 	margin-top: 30px;
 	width: 10%;
 	height: 120px;
-	background-color: rgb(171,184,184) ;
-
-
+	background-color: #ABB8B8;
+}
 .colors{
 	background-color: #F5DEB3; 
 }
-
 .EduList {
-	color: grey;
+	color: #A9A9A9;
 }
-.bottom
-{
 
-    height: 50px;
-    width: 1024px;
-    background-color: #F5DEB3;
-
+.bottom {
+	height: 50px;
+	width: 1024px;
+	background-color: #F5DEB3;
 }
