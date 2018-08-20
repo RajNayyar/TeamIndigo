@@ -1,0 +1,269 @@
+body {
+	max-width: 1024px;
+	min-width: 200px;
+	margin: 0 auto;
+	font-family: sans-serif;
+	font-style: thin;
+
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.ProfileImage {
+	width: 200px;
+	border-radius: 50%;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 60px;
+	padding-right:60px;
+	
+}
+
+.EduList {
+	color: #A9A9A9;
+	font-size: 1.2em;
+}
+
+.details {
+	width: 320px;
+}
+.line{
+	border: 1px solid;
+	width: 12.5%
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	padding-top: 0.7em;
+}
+.address {
+	display: flex;
+	flex-direction: row;
+}
+.address-block {
+	display: flex;
+	flex-direction: row;
+}
+
+.address-text {
+	width: 90%;
+}
+
+/*NEHA*/
+.externalOne {
+    height: 200px;
+    width: 100%;
+    background-color: #ABB8B8 ;
+    display: flex;
+}
+
+.internalOne {
+    border: 3px solid black;
+    outline: white solid 12px;
+    margin-top: 50px;
+    margin-left: 25%;
+    height: 100px;
+    width: 50%;
+    background-color: white;
+    font-family: "sans-serif";
+    text-align: center;
+    font-weight:lighter;
+    font-size: 1 em;
+}
+p.name {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+p.designation{
+      font-style: italic;
+}
+
+.footer {
+    height: 20px;
+    background-color: #ffcba4;
+	margin-top: 20px;
+	width:100%;
+	
+}
+
+.modalDialog {
+	display:flex;
+	justify-content: center;
+
+    position: fixed;
+	margin: 0 auto;
+    font-family: Arial;
+   top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 20000;
+     opacity: 0;
+  pointer-events: none; 
+}
+
+    .modalDialog:target {
+        opacity: 1;
+      pointer-events: auto; 
+    }
+
+    .modalDialog > div {
+        width: 30%;
+		height: 30%;
+        position: relative;
+        margin:10%;
+       padding: 5px 20px 13px 20px;
+        border-radius: 10px;
+        background: #fff;
+    }
+.close {
+    background: #999;
+    color: #BBBBBB;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+     width: 24px; 
+    text-decoration: none; 
+    font-weight: bold;
+    border-radius: 12px;
+   
+}
+
+    .close:hover {
+        background: #ff6a00;
+    }
+
+
+
+/*shrijeet*/
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.large-box {
+    width: 300px;
+}
+.small-box {
+    width: 3.8em;
+    padding-top: 2.1em;
+}
+.lines {
+  
+    line-height: 1px;
+   
+}
+.pads-required {
+    padding-top: 4px;
+   
+}
+.style-of-font{
+    color:grey; 
+}
+.blocks{
+    height:2em;
+    border:solid;
+    border-color:black;
+    border-width:1px;
+    padding-top:0.5em;
+    text-align:center;
+    
+    
+}
+.coloured-blocks {
+    
+    background-color: antiquewhite;
+    border: none;
+    
+}
+
+
+/*shrijeet2*/
+
+
+.mid-section-block
+{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.small-box-one {
+    width: 22.6em;
+    padding-top: 1.5em;
+}
+
+
+.box-properties {
+    height: 20px;
+    width: 300px;
+    padding-top: 3px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.last-section-block{
+    display:flex;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+}
+.first-part {
+    flex-basis: 90%;
+	min-width:200px;
+   
+}
+.second-part {
+    border: solid;
+    border-width: 1px;
+    background-color: palegoldenrod;
+    padding-top: 30px;
+    text-align: center;
+	width: 10%;
+	min-width: 100px;
+
+}
+.pads-required-one {
+    padding-top: 4px;
+    color: grey;
+}
+
+@media screen and (max-width: 1023px) {
+  
+	
+	.small-box {
+        width: 0px;
+    }
+	.small-box-one {
+		width: 0px;
+	}
+
+	.box {
+		margin: 0 auto;
+		justify-content: space-around;
+
+	}
+
+}
+@media screen and (max-width: 700px) {
+	.box {
+		justify-content: center;
+	}
+}
+
+
+
+
+
+
+
+
